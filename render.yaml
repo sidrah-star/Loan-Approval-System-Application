@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: loan-predictor
+    env: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    plan: free
+    envVars:
+      - key: RUNTIME_VERSION
+        value: python-3.10.13
