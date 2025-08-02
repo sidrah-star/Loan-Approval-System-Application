@@ -1,4 +1,4 @@
-# Premium Loan Eligibility Predictor
+# Premium Loan Approval Predictor
 
 An AI-powered web application that predicts loan eligibility based on user input, using a machine learning model trained on real loan data. The app provides instant results, confidence scores, and personalized tips to improve approval chances.
 
@@ -93,11 +93,8 @@ loan_app/
     train.csv             # Training data
 ```
 
-## Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 ## Credits
-Developed by Shrikant Wadkar. Inspired by open-source ML and data science communities. 
+Developed by Sidra Hussain. Inspired by open-source ML and data science communities. 
